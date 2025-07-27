@@ -4,8 +4,9 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "dev": "vite",
-    "build": "node tools/generate-llms.js || true && npx vite build",
+    "dev": "npx vite",
+    "build": "node tools/generate-llms.js || true && npx --yes vite build",
+	"start": "npx vite preview",
     "preview": "vite preview"
   },
   "dependencies": {
