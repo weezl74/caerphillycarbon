@@ -12,7 +12,7 @@
 
     "dev": "npx vite",
 
-    "build": "npx vite build --config vite.config.deploy.js"
+    "build": "npx vite build",
 
     "preview": "vite preview"
 
